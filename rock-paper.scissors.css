@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.choice{
+    height: 50px;
+    width: 50px;
+}
+.mov{
+    background-color: black;
+    border: 3px solid white;
+    padding: 15px 18px;
+    margin: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.rslt{
+    font-size: 25px;
+}
+
+.scr{
+    margin-top: 30px;
+}
+
+.rst,.auto{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 8px 10px;
+}
+
+.b1{
+    margin-right: 10px;
+}
+
+.b{
+    font-size: 15px;
+    /* padding: 5px 6px; */
+    width: 48px;
+    height: 28px;
+}
