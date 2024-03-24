@@ -118,6 +118,7 @@ function choice(c){
         s.t=0;
         localStorage.removeItem('s');
         update();
+        document.querySelector('.result').innerHTML='';
         document.querySelector('.reset').innerHTML='';
         document.querySelector('.moves').innerHTML='';
     }
