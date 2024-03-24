@@ -9,6 +9,10 @@ document.body.addEventListener('keydown',(event)=>{
         autoplay();
     else if(event.key==='Backspace')
         reset();
+    else if (event.key=='y')
+        choice('Yes');
+    else if (event.key=='n')
+        choice('No');
 });
 
 let s=JSON.parse(localStorage.getItem('s'))||{
@@ -115,6 +119,7 @@ function choice(c){
         localStorage.removeItem('s');
         update();
         document.querySelector('.reset').innerHTML='';
+        document.querySelector('.moves').innerHTML='';
     }
     else if(c==='No'){
         document.querySelector('.reset').innerHTML='';
